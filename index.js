@@ -17,7 +17,7 @@ function currentLine(array) {
     return `The line is currently empty.`
   }
   else {
-    var lineString = "The line is currently:"
+    var lineString = "The line is currently: "
     for (let i = 0; i < array.length; i++) {
       if (i === (array.length - 1)) {
         lineString = lineString + `${i + 1}. ${array[i]}`
