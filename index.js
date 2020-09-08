@@ -1,4 +1,4 @@
 function takeANumber(katzDeli, name) {
-  katzDeli.unshift(name)
+  katzDeli.push(name)
   return `Welcome, ${name}. You are number ${katzDeli.length} in line.`
 }
